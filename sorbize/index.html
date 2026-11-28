@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SorBize - Çift ve Arkadaş Parti Oyunu</title>
+    <style>
+        :root {
+            --primary: #ff4b72;
+            --primary-dark: #e03259;
+            --text-dark: #1c1d2f;
+            --text-muted: #555c68;
+            --bg-light: #f8f9fc;
+            --card-bg: #ffffff;
+            --border: #e2e8f0;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+            padding: 32px 16px;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border);
+            text-align: center;
+        }
+        h1 { font-size: 28px; margin-bottom: 10px; }
+        .subtitle { color: var(--text-muted); font-size: 16px; margin-bottom: 32px; }
+        .nav-cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        @media (max-width: 520px) {
+            .nav-cards { grid-template-columns: 1fr; }
+        }
+        .card {
+            display: block;
+            text-decoration: none;
+            background: #fafbfc;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px 18px;
+            color: var(--text-dark);
+            transition: border-color 0.2s, transform 0.15s;
+        }
+        .card:hover {
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+        .card h2 { font-size: 18px; color: var(--primary); margin-bottom: 6px; }
+        .card p { font-size: 14px; color: var(--text-muted); }
+        footer {
+            margin-top: 24px;
+            font-size: 13px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SorBize</h1>
+        <p class="subtitle">Çiftler ve Arkadaşlar İçin Tek Telefondan Oynanabilir Parti Oyunu</p>
+
+        <div class="nav-cards">
+            <a href="support.html" class="card">
+                <h2>Destek &amp; İletişim</h2>
+                <p>Sıkça sorulan sorular ve doğrudan e-posta desteği.</p>
+            </a>
+            <a href="privacy.html" class="card">
+                <h2>Gizlilik Politikası</h2>
+                <p>Veri kullanımı, AdMob ve gizlilik ilkelerimiz.</p>
+            </a>
+        </div>
+
+        <footer>
+            &copy; 2026 SorBize. Tüm hakları saklıdır.
+        </footer>
+    </div>
+</body>
+</html>

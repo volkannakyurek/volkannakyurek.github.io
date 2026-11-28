@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destek &amp; İletişim - SorBize</title>
+    <style>
+        :root {
+            --primary: #ff4b72;
+            --primary-dark: #e03259;
+            --text-dark: #1c1d2f;
+            --text-muted: #555c68;
+            --bg-light: #f8f9fc;
+            --card-bg: #ffffff;
+            --border: #e2e8f0;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+            padding: 24px 16px;
+        }
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 32px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--border);
+        }
+        h1 { font-size: 26px; color: var(--text-dark); margin-bottom: 8px; }
+        .subtitle { color: var(--text-muted); font-size: 15px; }
+        .contact-box {
+            background: #fff5f7;
+            border: 1px solid #fed7df;
+            border-radius: 12px;
+            padding: 24px;
+            text-align: center;
+            margin-bottom: 36px;
+        }
+        .contact-box h2 { color: var(--primary-dark); font-size: 20px; margin-bottom: 8px; }
+        .contact-box p { color: var(--text-muted); margin-bottom: 16px; font-size: 15px; }
+        .btn-email {
+            display: inline-block;
+            background: var(--primary);
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 15px;
+            text-decoration: none;
+            padding: 12px 28px;
+            border-radius: 30px;
+            transition: background 0.2s ease, transform 0.1s ease;
+        }
+        .btn-email:hover { background: var(--primary-dark); transform: translateY(-1px); }
+        .section-title { font-size: 20px; margin-bottom: 16px; color: var(--text-dark); }
+        .faq-item {
+            margin-bottom: 16px;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 16px 20px;
+            background-color: #fafbfc;
+        }
+        .faq-item h3 { font-size: 16px; color: var(--text-dark); margin-bottom: 6px; }
+        .faq-item p { font-size: 14.5px; color: var(--text-muted); line-height: 1.55; }
+        .links-bar {
+            margin-top: 32px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 14px;
+        }
+        .links-bar a { color: var(--primary); text-decoration: none; font-weight: 500; margin: 0 10px; }
+        .links-bar a:hover { text-decoration: underline; }
+        footer { text-align: center; margin-top: 24px; color: #94a3b8; font-size: 13px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>SorBize Destek &amp; İletişim</h1>
+            <p class="subtitle">SorBize: Çift ve Arkadaş Parti Oyunu için Destek Sayfası</p>
+        </div>
+
+        <div class="contact-box">
+            <h2>Bizimle İletişime Geçin</h2>
+            <p>Oyunla ilgili bir sorun, hata bildirimi, soru veya öneriniz mi var? Bize dilediğiniz zaman e-posta yoluyla ulaşabilirsiniz.</p>
+            <a href="mailto:volkannakyurek@gmail.com?subject=SorBize%20Destek%20Talebi" class="btn-email">volkannakyurek@gmail.com</a>
+            <p style="font-size: 12.5px; color: #888; margin-top: 12px; margin-bottom: 0;">(Taleplerinize genellikle 24 saat içinde yanıt verilmektedir.)</p>
+        </div>
+
+        <h2 class="section-title">Sıkça Sorulan Sorular (SSS)</h2>
+
+        <div class="faq-item">
+            <h3>Oyunu oynamak için internet bağlantısı gerekiyor mu?</h3>
+            <p>SorBize genel olarak yerel ve tek cihaz üzerinden çevrimdışı oynanabilir. Ancak reklam gösterimi ve güncellemeler için internet bağlantısı önerilmektedir.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>"Kafada Tutma" modunda hareket algılanmıyor, ne yapmalıyım?</h3>
+            <p>Telefonunuzun yön/ivmeölçer sensörünün düzgün çalıştığından emin olun. Cihazınızı alnınıza dik tutarak doğru bildiğinizde öne doğru, pas geçmek istediğinizde ise arkaya doğru eğiniz.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Ses veya müzik çalmıyor, nasıl açabilirim?</h3>
+            <p>Oyun içi ayarlar menüsünden ses ve müzik efektlerinin açık olduğundan ve telefonunuzun "Sessiz / Sessize Al" anahtarının kapalı olduğundan emin olun.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Kişisel verilerim toplanıyor veya saklanıyor mu?</h3>
+            <p>Hayır. SorBize bir hesap/üyelik sistemi barındırmaz. Oyun skorlarınız veya cevaplarınız sunucularımıza kaydedilmez; yalnızca cihazınızın hafızasında yerel olarak tutulur.</p>
+        </div>
+
+        <div class="links-bar">
+            <a href="privacy.html">Gizlilik Politikası (Privacy Policy)</a>
+            <a href="index.html">Ana Sayfa</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 SorBize. Tüm hakları saklıdır.
+    </footer>
+</body>
+</html>
